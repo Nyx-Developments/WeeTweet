@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  weetweet:
+    build: .
+    container_name: WeeTweet
+    restart: unless-stopped
+    # Allow env inheritance from host (also supports .env file)
+    environment:
+      - "TZ=Europe/London"
+      - DISCORD_TOKEN
+      - TWITTER_BEARER_TOKEN

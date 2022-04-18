@@ -1,0 +1,15 @@
+node_modules/
+**/.git/
+
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+.env
+.eslintrc.json
+.gitignore
+.gitlab-ci.yml
+
+config.example.js
+README.md
+

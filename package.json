@@ -1,0 +1,43 @@
+{
+  "name": "weetweet",
+  "version": "1.0.0",
+  "description": "A minimal bot for cross-posting Tweets to Discord.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Zedifus/weetweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "discord",
+    "tweet",
+    "crossposter",
+    "social-media"
+  ],
+  "author": "Zedifus (Iain Powrie)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/Zedifus/weetweet/issues"
+  },
+  "homepage": "https://gitlab.com/Zedifus/weetweet#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "follow-redirects": "^1.14.9",
+    "he": "^1.2.0",
+    "humanize-duration": "^3.27.1",
+    "moment-timezone": "^0.5.34",
+    "twitter-api-v2": "^1.11.0"
+  }
+}
