@@ -84,16 +84,6 @@ I have also included a `docker-compose` config. Just simply clone like above, co
 $ docker-compose up -d && docker-compose logs -f
 ```
 
-
-## Acknowledgements
-
- - [TomboFry](https://gitlab.com/TomboFry) & [Rozza](https://gitlab.com/rchar) - For their
-   assistance in peer review, helping keep me on track with best ES6 practice and advising
-   on code choice and improvements.
- - [Twitter-API-V2](https://github.com/PLhery/node-twitter-api-v2) and it's maintainer
-   [alkihis](https://github.com/alkihis) for assisting me in issues I was having with
-   anomolies the TwitterAPI-V2 Endpoints.
-
 ## Roadmap
 
 - **Config-less Deployments,**
@@ -109,18 +99,6 @@ $ docker-compose up -d && docker-compose logs -f
   as will be easier to deploy from image, I plan on making the provided image multi-arch
   `amd64` & `arm64`. Maybe more!
 
-
-## Contributing
-
-Contributions are always welcome!
-
-I am always seeking to learn and improve, so if you have ideas, feel free to open a MR!
-## Credit / Donations
-I don't want your money, or mind wither you rebrand my code in your projects if you
-happen to use it, if it's helped you or you have deployed it. All I ask is please
-just pop a wee star on this repository, and adhere to the below licence.
-
-It'd mean the world to me 🥰
 ## License
 
 [GPL-V3.0](https://choosealicense.com/licenses/gpl-3.0/)
